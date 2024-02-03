@@ -1,57 +1,38 @@
-
-# # # # # str = "yash_balpande"
-# # # # # print(len(str))
-# # # # str = "yash balpande"
-# # # # # ch = str[4:]
-# # # # # print(ch)
-# # # # # print(str.upper())
-# # # # print(str.replace("yash", "Gau"))
-# # # # print(str.find("a")) 
+# # info  =  {
+# #     "name" : "Yash",
+# #     "College_Name"  : "Gcoen",
+# #     "age" : 19
+    
+# #     }
 
 
 
-# # # #Q,1
+# # print(info)
 
-# # name = input("Enter Your Name :- ")
+# # # Qur.1
 
-# # # print(len(name))
+# # item ={
+# #     "cat"      : "a small animal",
+# #     "table" : ["a pice of furniture", "list of facts & figure"]
+# # }
 
-
-
-# # # Q.2
-
-# # print(name.find("p"))
-
-# # ------------------------------------------------------------------------------
-
-# x = int(input("Your age :-"))
-
-# if x >= 18:
-#     print("Your are eligible for voting card")
-# else:
-#     print("You r not eligible for votting card wait till 18th birthday")
+# # print(item)
 
 
-
-# x = int(input("Enter The Number :- "))
-
- 
-# rev = x % 2
-
-# if (rev == 0):
-#     print("x is even number")
-# else:
-#     print("x is odd number")
+# Subject = {
+#     "python","java","C++",'python','javascript','java','python','python',"java","C++","C"
+# }
+# print(len(Subject))
 
 
-a = int(input('Enter The value of a :- '))
-b = int(input('Enter The value of b :- '))
-c = int(input('Enter The value of c :- '))
+#que.3
 
+Subject = {
+    "english" : input("Marks Of English:- "),
+     "marathi" : input("Marks Of marathi:- "),
+      "maths" : input("Marks Of maths:- "),  
+}
 
-if (a>=b and a>= c):
-    print(" a is greater then b")
-elif(b>=a and b>= c):
-     print(" a is greater then C")
-else:
-  print(" c is greater then b")
+Total_mark = Subject
+
+print(Total_mark)
